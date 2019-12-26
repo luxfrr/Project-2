@@ -1,10 +1,37 @@
-body{
-    background-color: rgb(202, 12, 85);
-}
 .container{
-    padding-left: auto;
-    padding-right: auto;
+    width: 1024px;
+    background-color: black;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
-div a{
-    padding-left: auto;
+header{
+    background-color: darkblue;
+    min-height: 100px;
+}
+main{
+    background-color: darkcyan;
+    min-height: 300px;
+}
+.cards{
+    background-color: grey;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    background-color: rgb(26, 26, 63);
+    min-height: 300px;
+    width: 30%;
+}
+.card2{
+    background-color: rgb(2, 19, 2);
+    min-height: 300px;
+    width: 30%;
+}
+.card3{
+    background-color: rgb(43, 3, 3);
+    min-height: 300px;
+    width: 30%;
 }
