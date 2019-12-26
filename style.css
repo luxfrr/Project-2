@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(202, 12, 85);
+}
+.container{
+    padding-left: auto;
+    padding-right: auto;
+}
+div a{
+    padding-left: auto;
+}
