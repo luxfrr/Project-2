@@ -1,17 +1,22 @@
+body{
+    background-image: linear-gradient(red, yellow);
+}
 .container{
     width: 1024px;
-    background-color: black;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 header{
-    background-color: darkblue;
-    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 main{
-    background-color: darkcyan;
     min-height: 300px;
+    display: flex;
+    align-items: center;
 }
 .cards{
     background-color: grey;
@@ -34,4 +39,11 @@ main{
     background-color: rgb(43, 3, 3);
     min-height: 300px;
     width: 30%;
+}
+.herobox1{
+    flex: 2;
+}
+.herobox2{
+    
+    flex: 1;
 }
