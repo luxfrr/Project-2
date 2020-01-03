@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-color: #FC5E55;
     font-family: 'Roboto', sans-serif;
     color: white;
 
@@ -29,10 +29,11 @@ main{
     min-height: 300px;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .card1{
-    background-image: url(images/image-background-card1.jpg);
+    background-image:url(images/image-background-card1.jpg);
     background-size: cover;
     background-position: bottom;
     min-height: 250px;
@@ -52,6 +53,10 @@ main{
     min-height: 250px;
     width: 30%;
 } 
+.card1, .card2, .card3{
+    padding: 60px 30px 20px 30px;
+    box-sizing: border-box;
+}
 .herobox1{
     flex: 2;
     padding-right: 100px;
@@ -65,9 +70,28 @@ h1{
     font-size: 3.25rem;
     margin-bottom: 1rem;
 }
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
 p{
     line-height: 1.80rem;
+    margin-bottom: 0.5rem;
 }
 .salto{
     margin-bottom: 0.5rem;
+}
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+.mybutton{
+    background-color: white;
+    color: #FC5E55;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
 }
